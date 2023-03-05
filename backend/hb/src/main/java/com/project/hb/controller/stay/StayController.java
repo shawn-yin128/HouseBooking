@@ -25,7 +25,7 @@ public class StayController {
                         @RequestParam("address") String address,
                         @RequestParam("description") String description,
                         @RequestParam("guest_number") int guestNumber,
-                        @RequestParam("images")MultipartFile[] images,
+                        @RequestParam("images") MultipartFile[] images,
                         Principal principal) {
         User hostUser = new User();
         hostUser.setUsername(principal.getName());

@@ -1,0 +1,31 @@
+@import "antd/dist/reset.css";
+@import "styles/App.css";
+@import "styles/Login.css";
+@import "styles/StayManagement.css";
+@import "styles/StayDetail.css";
+@import "styles/HostHome.css";
+@import "styles/StayUpload.css";
+@import "styles/ReservationManagement.css";
+@import "styles/ReservationStaySearch.css";
+
+.ant_carousel .slick-prev,
+.ant_carousel .slick-next,
+.ant_carousel .slick-prev:hover,
+.ant_carousel .slick-next:hover {
+    font-size: inherit;
+    color: currentColor;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}

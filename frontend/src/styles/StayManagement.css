@@ -1,0 +1,8 @@
+.stay_management_card {
+    display: flex;
+    align-items: center;
+}
+
+.stay_management_text {
+    max-width: 150px;
+}

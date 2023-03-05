@@ -1,0 +1,12 @@
+.reservation_list {
+    margin-top: 20px;
+}
+
+.reservation_list_card_title {
+    display: flex;
+    align-items: center;
+}
+
+.reservation_list_card_title_content {
+    max-width: 150px;
+}
